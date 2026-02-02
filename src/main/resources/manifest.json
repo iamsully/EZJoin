@@ -1,0 +1,14 @@
+{
+  "Group": "ca",
+  "Name": "EZJoin",
+  "Version": "1.0.0",
+  "Description": "A Hytale join plugin",
+  "Authors": [
+    {
+      "Name": "Sullyq"
+    }
+  ],
+  "Main": "ca.sullyq.ezjoin.EZJoin",
+  "LoadOrder": "POSTWORLD",
+  "IncludesAssetPack": true
+}
