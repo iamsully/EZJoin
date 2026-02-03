@@ -6,6 +6,8 @@ public class EZJoinCommand extends AbstractCommandCollection {
 
     public EZJoinCommand() {
         super("ej", "EZJoin plugin commands");
-        this.addSubCommand(new JoinDifferentServerCommand());
+        this.addSubCommand(new JoinDMECommand());
+        this.addSubCommand(new JoinShadowTaleCommand());
+        this.addSubCommand(new JoinSleepyHallowCommand());
     }
 }
